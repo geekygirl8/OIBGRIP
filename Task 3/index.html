@@ -1,0 +1,42 @@
+<!--Level 2 - Task 2 - Todo Web App
+//Oasis Infobyte Web Development and Designing Internship
+//Author - NIKITA
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Todo Web App</title>
+	<link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+	<header>
+		<h1>Todo Web App</h1>
+		<form id="task-form">
+			<input 
+				type="text" 
+				name="task-input" 
+				id="task-input" 
+				placeholder="What to do?" />
+			<input 
+				type="submit"
+				id="task-submit" 
+				value="Add task" />
+		</form>
+	</header>
+
+	<main>
+		<section class="task-list">
+			<h2>Tasks</h2>
+			<div id="tasks">
+			</div>
+		</section>
+	</main>
+
+	<script src="index.js"></script>
+</body>
+</html>
